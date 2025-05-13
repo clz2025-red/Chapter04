@@ -46,11 +46,23 @@ public class MyListApp {
 			System.out.println(pList.get(i).toString());
 		}
 		
-		//(원)
+		//리스트(원)
+		CircleList cList = new CircleList();
+		
+		//원
+		Circle c01 = new Circle(3);
+		Circle c02 = new Circle(4);
+		Circle c03 = new Circle(5);
+		
+		cList.add(c01);  
+		cList.add(c02);
+		cList.add(c03);
+		
+		for(int i=0; i<cList.size(); i++) {
+			System.out.println(cList.get(i).toString());
+		}
 		
 		
-		
-
 	}
 
 }
