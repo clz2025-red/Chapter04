@@ -29,7 +29,7 @@ public class MyListApp {
 		//System.out.println(Arrays.toString(pArray));
 		*/
 		
-		//리스트
+		//리스트(포인트)
 		PointList pList = new PointList();
 		
 		//포인트
@@ -42,6 +42,11 @@ public class MyListApp {
 		pList.add(p02);
 		pList.add(p03);
 		
+		for(int i=0; i<pList.size(); i++) {
+			System.out.println(pList.get(i).toString());
+		}
+		
+		//(원)
 		
 		
 		
